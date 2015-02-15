@@ -6,7 +6,7 @@ import java.util.List;
 public enum AddressType implements Sortable<AddressType> {
 
 	BILLING,
-	SHIPPING,;
+	SHIPPING;
 
 	@Override
 	public void sort(List<AddressType> items) {
