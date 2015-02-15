@@ -20,7 +20,7 @@ public class NewProduct implements Printable {
 	public int getId() {
 		return this.id;
 	}
-	
+	 
 	@Override
 	public String getName() {
 		return this.name;
